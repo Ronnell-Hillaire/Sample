@@ -1,0 +1,721 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ponnins',sans-serif;
+}
+
+body{
+        min-height: 100vh;
+    height: auto;
+    overflow: scroll;
+    overflow-x: hidden;
+    width: 100%;
+    background-color: ghostwhite;
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(background1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    padding: 20px;
+    width: 100%;
+}
+
+.logo{
+    width: 250px;
+    float: left;
+}
+
+
+
+.links{
+    float: right;
+    position: relative;
+    padding: 0px 20px;
+    list-style: none;
+    margin-left: auto;
+    text-decoration: none;
+}
+
+.link{
+    padding: 0px 20px;
+    background-color: #1c9464;
+    border-radius: 20px;
+    height: 25px;
+    margin-right: 15px;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.link2{
+    display: none;
+}
+
+
+.active{
+    padding: 0px 20px;
+    background-color: #f57e40;
+    border-radius: 20px;
+    height: 25px;
+    width: auto;
+    margin-right: 15px;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;  
+    color: black;
+}
+
+.active2{
+    display: none;
+}
+
+.links li a{
+    text-decoration: none;
+}
+
+.link:hover{
+    background-color: #f57e40;
+}
+
+.text{
+    width: 50%;
+    position: absolute;
+    top: 32%;
+    left: 25%;
+    text-align: center;
+    line-height: 30px;
+}
+
+.text p{
+    font-size: 20px;
+    font-family: 'Poppins'; 
+    color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid 1px;
+    border-color: #f57e40;
+    height: 250px;
+}
+
+
+
+.text h1{
+    font-family: 'Poppins';
+    font-size: 32px;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.button{
+    width: 30%;
+    height: 16%;
+    background-color: green;
+    color: #f57e40;
+    border: solid 1px;
+    border-color: #f57e40;
+    position: absolute;
+    left: 35%;
+    top: 92%;
+    padding-top: 1%;
+}  
+
+.button a{
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 25px;
+    color: #f57e40;
+    top: 50%;
+}
+
+
+
+.checkbtn{
+    display: none;
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 45px; 
+}
+
+.gray-box {
+  position: absolute;
+  background-color: white;
+  height: 60vh;  
+  width: 60%;
+  left: 20%;
+  top: 95vh;
+    vertical-align: baseline;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Outer shadow */
+    outline: .5px solid gray; /* Outline */
+}
+
+.graybox-header h2{
+    padding-top: 20px;
+    font-family: 'Poppins';
+    text-align: center;
+    vertical-align: baseline;
+}
+
+.graybox-text p{
+    font-family: inherit;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 20px 50px;
+    font-family: "Scheherazade New", serif;
+}
+
+.graybox-btn {
+    position: absolute;
+    background-color: green;
+    color: white;
+    width: 20%;
+    height: 50px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+    top: 75%;
+    left: 40%;
+    outline: 1px solid green;
+    text-decoration: none;
+}
+
+.graybox-btn a{
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.graybox-btn:hover a {
+    background-color: white;
+    outline: 2px solid orange;
+    color: black;
+    outline: 0px solid green;
+    transition: background-color 0.3s;
+}
+
+.graybox-btn:hover {
+    background-color: white;
+    outline: 2px solid orange;
+    color: black;
+}
+
+
+#check{
+    opacity: 0;
+}
+
+.projects-main{
+    background-image: url(Walnut.jpg);
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 375px;
+
+}
+
+.projects-sec{
+    background-image: url(Walnut.jpg);
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 375px;
+}
+
+.projects{
+background-image: url(Walnut.jpg);
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+    background-color: ghostwhite;
+}
+
+.projects-sec h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: ghostwhite;
+    font-family: "Scheherazade New", serif;
+}
+
+.projects-sec p{
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    color: white;
+    font-family: "Scheherazade New", serif;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-type{
+    flex-basis: 23%;
+    background-color: whitesmoke;
+    border-radius: 1px;
+    margin-bottom: 5%;
+    padding-top: 10px;
+    box-sizing: border-box;
+    transition: 0.5s;
+    padding-bottom: 20px;
+    text-decoration: none;
+   
+}
+
+.project-type h3{
+font-family: "Scheherazade New", serif;
+  font-style: normal;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.project-type a {
+  text-decoration: none;
+  color: #333; /* Change color as needed */
+    font-family: "Scheherazade New", serif;
+    padding: 2px 5px;
+}
+
+.project-type p{
+    font-family: "Scheherazade New", serif;
+     text-align: center;
+    padding: 2px 5px;
+}
+
+.projects h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+.project-type:hover{
+    box-shadow: 0 0 10px 0px rgba(0,0,0,0.2);
+}
+
+.gallery{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.gallerys{
+    display: flex;
+    flex-basis: 25%;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.see-gallery{
+      display: flex;
+  align-items: center;
+  justify-content: flex-start;
+    padding-top: 50px;
+    font-family: "Scheherazade New", serif;
+}
+
+.gallery-text{
+    font-size: 30px;
+ text-align: left;
+    margin-right: 100px;
+    font-family: "Scheherazade New", serif;
+}
+
+.gallery-text h2{
+    font-family: "Scheherazade New", serif;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.gallery-btn{
+max-width: 100%;
+  max-height:100%;
+     margin-left: 50%;
+        background-color: green;
+    color: white;
+    width: 15%;
+    height: 50px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+    outline: 1px solid green;
+}
+
+.gallery-btn a{
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.gallery-btn:hover {
+    background-color: white;
+    outline: 2px solid orange;
+    color: black;
+}
+
+.gallery-btn:hover a {
+    background-color: white;
+    outline: 2px solid orange;
+    color: black;
+    text-decoration: none;
+        outline: 0px solid orange;
+}
+
+.testi{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 50px; 
+}
+
+.testi-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.testi-col img{
+    width: 100%;
+    display: block;
+}
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    transition: 0.5s;
+}
+
+
+.layer:hover{
+        background: rgba(28, 148, 100, 0.7);
+}
+
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+.clients {
+  text-align: center;
+  padding: 50px 0;
+    background-image: url(Walnut.jpg);
+}
+
+.clients h1 {
+  font-size: 24px;
+  margin-bottom: 30px;
+    color: white;
+        font-family: "Scheherazade New", serif;
+    font-size: 30px;
+    
+}
+
+.clients .rows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-col {
+  margin: 0 20px;
+  max-width: 300px;
+    background-color: bisque;
+}
+
+.clients-col img {
+  width: 100px; /* Adjust as needed */
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.clients-col p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.clients-col h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.fa-star {
+  color: gold;
+}
+
+.fa-star::before {
+  content: '\2605';
+}
+
+.cta {
+    margin: 100px auto;
+     width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 100px;
+        }
+
+.cta h1 {
+    margin-top: 0;
+    }
+
+.ftr{
+    width: 100%;
+    height: 100px;
+    background-color: darkgray;
+}
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #f57e40;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+@media only screen and (max-width:1114px) {
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: transparent;
+        padding: 20px;
+        width: 100%;
+        transition: 0.5s;
+    }
+
+    .mobile {
+        display: none;
+        position: relative;
+        width: 100%;
+        height: 475px;
+        background-color: #140333;
+        z-index: 999;
+        text-align: center;
+        vertical-align: middle;
+        padding-top: 75px;
+    }
+
+    .active2 {
+        display: flex;
+    }
+
+    .link2 {
+
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+        width: 95%;
+        height: 75px;
+        margin: auto;
+        border: solid 1px;
+        border-color: orange;
+        background-color: transparent;
+        vertical-align: middle;
+
+    }
+
+    .link2 a {
+        text-decoration: none;
+        vertical-align: middle;
+        margin: auto;
+        color: white;
+    }
+
+    .links {
+        display: none;
+        float: right;
+    }
+
+    .link2 a:hover {
+        color: #f57e40;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .text {
+        line-height: 12px;
+        width: 70%;
+    }
+
+    .text p {
+        font-size: 14px;
+        height: 180px;
+    }
+
+    .button a {
+        font-size: 16px;
+        padding-top: 10%;
+    }
+
+    #check {
+        display: flex;
+        width: 100%;
+        opacity: 0;
+    }
+
+    .checkbtn {
+        width: 00%;
+        display: flex;
+        font-size: 25px;
+        color: white;
+        float: right;
+        line-height: 45px;
+        padding-right: 20px;
+    }
+
+    .text {
+        width: 50%;
+        position: absolute;
+        top: 32%;
+        left: 25%;
+        text-align: center;
+        line-height: 30px;
+    }
+
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+
+    }
+}
+    
+
+@media only screen and (max-width:750px) {
+
+    .text {
+        line-height: 15px;
+    }
+
+    .text p {
+        font-size: 12px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .clients-col img {
+        margin-left: 10px;
+        margin-right: 15px;
+    }
+
+    .footer-col {
+        width: 100%;
+    }
+}
